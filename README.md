@@ -7,6 +7,32 @@ OSX Setup from collaborator's of OW Interactive
 
 ![Sad With new computer](https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/assets/media/gifs/sad-with-new-computer.webp)
 
-My setup OS
-To install CMD + Space bar > Terminal
-curl -sL https://raw.githubusercontent.com/rogersilvasouza/my-setup/master/osx/post-intall.sh | sh
+New computer or operating system reinstallation
+========
+
+### If you don't know what you're doing, call someone
+
+If your computer is reset it is advisable to start here with the script below your computer will gain some new powers, such as being able to view hidden files, new options in the finder bar and etc. So start here
+
+*Open Spotlight search* ```CMD + Space Bar``` *and search Terminal or Iterm2 (if it is already installed)*
+
+And execute
+
+```
+curl -sL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/post-intall.sh | sh
+```
+
+You are a backend
+========
+
+### If you don't know what you're doing, call someone
+
+If you are a cool backend developer, this script will already install a series of tools that we use in our day to day
+
+*Open Spotlight search* ```CMD + Space Bar``` *and search Terminal or Iterm2 (if it is already installed)*
+
+And execute
+
+```
+curl -sL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh | sh
+```
