@@ -7,6 +7,13 @@ OSX Setup from collaborator's of OW Interactive
 
 ![Sad With new computer](https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/assets/media/gifs/sad-with-new-computer.webp)
 
+## Contents
+
+- [Summary](#sumary)
+	- [Post Install](#post-install)
+	- [Backend](#backend)
+	- [Frontend](#frontend)
+
 New computer or operating system reinstallation
 ========
 
