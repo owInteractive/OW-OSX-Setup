@@ -39,21 +39,21 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup
 
 Programs, Languagues and other things covered on script
 
-* homebrew
-* zsh
-* gitflow
-* googlechrome
-* vscode
-* sequelpro
-* captain
-* docker
-* iterm2
-* slack
-* sourcetree
-* java,
-* node
-* switch-php
-* n
+* [Homebrew](https://brew.sh/)
+* [ZSH](https://ohmyz.sh/)
+* [GIT Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
+* [Google Chrome](https://www.google.com/intl/pt-BR/chrome/)
+* [VScode](https://code.visualstudio.com/)
+* [Sequel Pro](https://www.sequelpro.com/)
+* [Captain](https://getcaptain.co/)
+* [Docker](https://www.docker.com/products/docker-desktop)
+* [Iterm2](https://www.iterm2.com/)
+* [Slack](https://slack.com/intl/pt-br/)
+* [Sourcetree](https://www.sourcetreeapp.com/)
+* [Java](https://www.java.com/pt_BR/download/)
+* [Node](https://nodejs.org/en/)
+* [switch-php](https://www.npmjs.com/package/switch-php)
+* [n](https://www.npmjs.com/package/n)
 
 You are a frontend
 ========
@@ -72,20 +72,21 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup
 
 Programs, Languagues and other things covered on script
 
-* homebrew
-* zsh
-* gitflow
-* googlechrome
-* vscode
-* sequelpro
-* captain
-* docker
-* iterm2
-* slack
-* sourcetree
-* java,
-* node
-* n
+* [Homebrew](https://brew.sh/)
+* [ZSH](https://ohmyz.sh/)
+* [GIT Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
+* [Google Chrome](https://www.google.com/intl/pt-BR/chrome/)
+* [VScode](https://code.visualstudio.com/)
+* [Sequel Pro](https://www.sequelpro.com/)
+* [Captain](https://getcaptain.co/)
+* [Docker](https://www.docker.com/products/docker-desktop)
+* [Iterm2](https://www.iterm2.com/)
+* [Slack](https://slack.com/intl/pt-br/)
+* [Sourcetree](https://www.sourcetreeapp.com/)
+* [Java](https://www.java.com/pt_BR/download/)
+* [Node](https://nodejs.org/en/)
+* [switch-php](https://www.npmjs.com/package/switch-php)
+* [n](https://www.npmjs.com/package/n
 
 I want to contribute
 ========
