@@ -1,4 +1,4 @@
-my-setup
+OSX Setup from collaborator's of OW Interactive
 ========
 
 My setup OS
