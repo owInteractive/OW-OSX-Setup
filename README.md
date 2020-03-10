@@ -10,11 +10,11 @@ OSX Setup from collaborator's of OW Interactive
 ## Contents
 
 - [Summary](#sumary)
-	- [Post Install](#post-install)
-	- [Backend](#backend)
-	- [Frontend](#frontend)
+	- [New computer or operating system reinstallation](#new-computer-or-operating-system-reinstallation)
+	- [Are you a backend?](#are-you-a-backend)
+	- [Are you a frontend?](#are-you-a-frontend)
 
-New computer or operating system reinstallation
+## New computer or operating system reinstallation
 ========
 
 ### If you don't know what you're doing, call someone
@@ -29,7 +29,7 @@ And execute
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/osx.sh)"
 ```
 
-Are you a backend
+## Are you a backend?
 ========
 
 ### If you don't know what you're doing, call someone
@@ -62,7 +62,7 @@ Programs, Languagues and other things covered on script
 * [switch-php](https://www.npmjs.com/package/switch-php)
 * [n](https://www.npmjs.com/package/n)
 
-Are you a frontend
+## Are you a frontend?
 ========
 
 ### If you don't know what you're doing, call someone
