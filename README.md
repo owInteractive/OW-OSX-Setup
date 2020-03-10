@@ -1,5 +1,4 @@
 OSX Setup from collaborator's of OW Interactive
-========
 
 > Has a new computer been made available to you or have you just been hired and don't know what to do with that machine? In this guide we will help you, do not be sad.
 
@@ -15,7 +14,6 @@ OSX Setup from collaborator's of OW Interactive
 	- [Are you a frontend?](#are-you-a-frontend)
 
 ## New computer or operating system reinstallation
-========
 
 ### If you don't know what you're doing, call someone
 
@@ -30,7 +28,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup
 ```
 
 ## Are you a backend?
-========
 
 ### If you don't know what you're doing, call someone
 
@@ -63,7 +60,6 @@ Programs, Languagues and other things covered on script
 * [n](https://www.npmjs.com/package/n)
 
 ## Are you a frontend?
-========
 
 ### If you don't know what you're doing, call someone
 
@@ -95,7 +91,6 @@ Programs, Languagues and other things covered on script
 * [n](https://www.npmjs.com/package/n)
 
 I want to contribute
-========
 
 You are a devops or work in another area of ​​the company and do not have an initial installation script here, feel free to contribute. It is very simple, just fork this project and submit a PR.
 
