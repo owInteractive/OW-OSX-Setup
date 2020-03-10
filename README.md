@@ -51,3 +51,12 @@ And execute
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/frontend.sh)"
 ```
+
+I want to contribute
+========
+
+Tools used in the frontend
+
+You are a devops or work in another area of ​​the company and do not have an initial installation script here, feel free to contribute. It is very simple, just fork this project and submit a PR.
+
+*Any contribution is welcome*
