@@ -37,6 +37,24 @@ And execute
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh)"
 ```
 
+Programs, Languagues and other things covered on script
+
+* homebrew
+* zsh
+* gitflow
+* googlechrome
+* vscode
+* sequelpro
+* captain
+* docker
+* iterm2
+* slack
+* sourcetree
+* java,
+* node
+* switch-php
+* n
+
 You are a frontend
 ========
 
@@ -51,6 +69,23 @@ And execute
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/frontend.sh)"
 ```
+
+Programs, Languagues and other things covered on script
+
+* homebrew
+* zsh
+* gitflow
+* googlechrome
+* vscode
+* sequelpro
+* captain
+* docker
+* iterm2
+* slack
+* sourcetree
+* java,
+* node
+* n
 
 I want to contribute
 ========

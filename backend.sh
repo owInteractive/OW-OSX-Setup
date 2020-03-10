@@ -25,7 +25,7 @@ esac
 printf '\e[1;31mInstalar ZSH - (S)im/(N)ão\e[0m\n'
 read zsh
 
-case "$homebrew" in
+case "$zsh" in
     s|S|Sim|"")
         sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ;;
@@ -73,9 +73,9 @@ esac
 
 ## Virtualização e Orquestração de ambientes
 printf '\e[1;31mInstalar Docker - (S)im/(N)ão\e[0m\n'
-read captain
+read docker
 
-case "$captain" in
+case "$docker" in
     s|S|Sim|"")
         brew cask install docker
     ;;
