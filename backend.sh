@@ -18,11 +18,8 @@ case "$homebrew" in
     s|S|Sim|"")
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     ;;
-    n|N|Nao|Não)
-        echo "..."
-    ;;
     *)
-        echo "Opção inválida"
+        echo "..."
     ;;
 esac
 
@@ -33,10 +30,7 @@ case "$vscode" in
     s|S|Sim|"")
         brew cask install visual-studio-code
     ;;
-    n|N|Nao|Não)
-        echo "..."
-    ;;
     *)
-        echo "Opção inválida"
+        echo "..."
     ;;
 esac
