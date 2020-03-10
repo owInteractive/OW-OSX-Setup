@@ -19,7 +19,7 @@ If your computer is reset it is advisable to start here with the script below yo
 And execute
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/post-intall.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/osx.sh)"
 ```
 
 You are a backend
@@ -35,4 +35,19 @@ And execute
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh)"
+```
+
+You are a frontend
+========
+
+### If you don't know what you're doing, call someone
+
+Tools used in the frontend
+
+*Open Spotlight search* ```CMD + Space Bar``` *and search Terminal or Iterm2 (if it is already installed)*
+
+And execute
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/frontend.sh)"
 ```
