@@ -3,7 +3,7 @@
 ##
 #
 #    To install CMD + Space bar > Terminal or Iterm2
-#    curl -sL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/config-osx.sh | sh
+#    sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/osx.sh)"
 #
 #    Forked from https://github.com/rogersilvasouza/my-setup/blob/master/osx/post-intall.sh
 #    That forked from https://github.com/mathiasbynens/dotfiles/blob/master/.osx
