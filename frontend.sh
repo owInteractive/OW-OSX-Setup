@@ -3,7 +3,7 @@
 ##
 #
 #    To install CMD + Space bar > Terminal or Iterm2
-#    sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh)"
+#    sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/frontend.sh)"
 #
 #    Works in 10.15.*
 
@@ -138,16 +138,6 @@ read node
 case "$node" in
     s|S|Sim|"")
         brew install node
-    ;;
-esac
-
-## Facilita na Troca de PHP na máquina
-printf '\e[1;31mInstalar NPM - SwitchPHP - (S)im/(N)ão\e[0m\n'
-read npmswitchphp
-
-case "$npmswitchphp" in
-    s|S|Sim|"")
-        npm i -g switch-php
     ;;
 esac
 
