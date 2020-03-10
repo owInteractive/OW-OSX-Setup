@@ -19,8 +19,15 @@ case "$homebrew" in
     s|S|Sim|"")
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     ;;
-    *)
-        echo "..."
+esac
+
+## Framework do terminal
+printf '\e[1;31mInstalar ZSH - (S)im/(N)ão\e[0m\n'
+read zsh
+
+case "$homebrew" in
+    s|S|Sim|"")
+        sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ;;
 esac
 
@@ -32,9 +39,6 @@ case "$gitflow" in
     s|S|Sim|"")
         brew install git-flow-avh
     ;;
-    *)
-        echo "..."
-    ;;
 esac
 
 ## Navegador do Google
@@ -44,9 +48,6 @@ read googlechrome
 case "$googlechrome" in
     s|S|Sim|"")
         brew cask install google-chrome
-    ;;
-    *)
-        echo "..."
     ;;
 esac
 
@@ -58,9 +59,6 @@ case "$vscode" in
     s|S|Sim|"")
         brew cask install visual-studio-code
     ;;
-    *)
-        echo "..."
-    ;;
 esac
 
 ## SGBDI utilizado junto com o MySQL/MariaDB
@@ -70,9 +68,6 @@ read sequelpro
 case "$sequelpro" in
     s|S|Sim|"")
         brew cask install sequel-pro
-    ;;
-    *)
-        echo "..."
     ;;
 esac
 
@@ -84,9 +79,6 @@ case "$captain" in
     s|S|Sim|"")
         brew cask install docker
     ;;
-    *)
-        echo "..."
-    ;;
 esac
 
 ## Visualizador de máquinas do docker
@@ -96,9 +88,6 @@ read captain
 case "$captain" in
     s|S|Sim|"")
         brew cask install captain
-    ;;
-    *)
-        echo "..."
     ;;
 esac
 
@@ -110,9 +99,6 @@ case "$iterm2" in
     s|S|Sim|"")
         brew cask install iterm2
     ;;
-    *)
-        echo "..."
-    ;;
 esac
 
 ## Comunicador / Bate Papo
@@ -122,9 +108,6 @@ read slack
 case "$slack" in
     s|S|Sim|"")
         brew install slack
-    ;;
-    *)
-        echo "..."
     ;;
 esac
 
@@ -136,8 +119,15 @@ case "$sourcetree" in
     s|S|Sim|"")
         brew install sourcetree
     ;;
-    *)
-        echo "..."
+esac
+
+## Linguaguem de programação
+printf '\e[1;31mInstalar Java - (S)im/(N)ão\e[0m\n'
+read java
+
+case "$java" in
+    s|S|Sim|"")
+        brew cask install java
     ;;
 esac
 
@@ -149,9 +139,6 @@ case "$node" in
     s|S|Sim|"")
         brew install node
     ;;
-    *)
-        echo "..."
-    ;;
 esac
 
 ## Facilita na Troca de PHP na máquina
@@ -162,9 +149,6 @@ case "$npmswitchphp" in
     s|S|Sim|"")
         npm i -g switch-php
     ;;
-    *)
-        echo "..."
-    ;;
 esac
 
 ## Facilita na Troca de versão do Node na máquina
@@ -174,8 +158,5 @@ read npmn
 case "$npmn" in
     s|S|Sim|"")
         npm i -g n
-    ;;
-    *)
-        echo "..."
     ;;
 esac
