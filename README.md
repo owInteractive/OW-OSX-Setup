@@ -22,7 +22,7 @@ And execute
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/osx.sh)"
 ```
 
-You are a backend
+Are you a backend
 ========
 
 ### If you don't know what you're doing, call someone
@@ -55,7 +55,7 @@ Programs, Languagues and other things covered on script
 * [switch-php](https://www.npmjs.com/package/switch-php)
 * [n](https://www.npmjs.com/package/n)
 
-You are a frontend
+Are you a frontend
 ========
 
 ### If you don't know what you're doing, call someone
