@@ -85,8 +85,7 @@ Programs, Languagues and other things covered on script
 * [Sourcetree](https://www.sourcetreeapp.com/)
 * [Java](https://www.java.com/pt_BR/download/)
 * [Node](https://nodejs.org/en/)
-* [switch-php](https://www.npmjs.com/package/switch-php)
-* [n](https://www.npmjs.com/package/n
+* [n](https://www.npmjs.com/package/n)
 
 I want to contribute
 ========
