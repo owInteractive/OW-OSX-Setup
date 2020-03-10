@@ -19,7 +19,7 @@ If your computer is reset it is advisable to start here with the script below yo
 And execute
 
 ```
-curl -sL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/post-intall.sh | sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/post-intall.sh)"
 ```
 
 You are a backend
@@ -34,5 +34,5 @@ If you are a cool backend developer, this script will already install a series o
 And execute
 
 ```
-curl -sL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh | sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh)"
 ```

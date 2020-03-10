@@ -3,7 +3,7 @@
 ##
 #
 #    To install CMD + Space bar > Terminal or Iterm2
-#    curl -sL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh | sh
+#    sh -c "$(curl -fsSL https://raw.githubusercontent.com/owinteractive/ow-osx-setup/master/backend.sh)"
 #
 #    Works in 10.15.*
 
