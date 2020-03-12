@@ -180,3 +180,25 @@ case "$npmn" in
         npm i -g n
     ;;
 esac
+
+## Gulp
+printf '\e[1;31mInstalar gulp - (S)im/(N)ão\e[0m\n'
+read gulp
+
+case "$gulp" in
+    s|S|Sim|"")
+        npm i -g gulp
+    ;;
+esac
+
+## Redis
+printf '\e[1;31mInstalar Redis - (S)im/(N)ão\e[0m\n'
+read redis
+
+case "$redis" in
+    s|S|Sim|"")
+        brew install redis
+        ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+        redis-cli ping
+    ;;
+esac
