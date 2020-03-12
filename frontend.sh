@@ -151,6 +151,16 @@ case "$zeplin" in
     ;;
 esac
 
+## Firefox
+printf '\e[1;31mInstalar Firefox - (S)im/(N)ão\e[0m\n'
+read firefox
+
+case "$firefox" in
+    s|S|Sim|"")
+        brew cask install firefox
+    ;;
+esac
+
 ## Linguaguem de programação
 printf '\e[1;31mInstalar Java - (S)im/(N)ão\e[0m\n'
 read java
