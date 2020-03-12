@@ -177,7 +177,7 @@ read node
 
 case "$node" in
     s|S|Sim|"")
-        brew install node
+        brew install node@12 && brew link --force --overwrite node@12
     ;;
 esac
 
