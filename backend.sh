@@ -107,7 +107,7 @@ read slack
 
 case "$slack" in
     s|S|Sim|"")
-        brew install slack
+        brew cask install slack
     ;;
 esac
 
@@ -117,7 +117,27 @@ read sourcetree
 
 case "$sourcetree" in
     s|S|Sim|"")
-        brew install sourcetree
+        brew cask install sourcetree
+    ;;
+esac
+
+## Spotify
+printf '\e[1;31mInstalar Spotify - (S)im/(N)ão\e[0m\n'
+read spotify
+
+case "$spotify" in
+    s|S|Sim|"")
+        brew cask install spotify
+    ;;
+esac
+
+## Postman
+printf '\e[1;31mInstalar Postman - (S)im/(N)ão\e[0m\n'
+read postman
+
+case "$postman" in
+    s|S|Sim|"")
+        brew cask install postman
     ;;
 esac
 
