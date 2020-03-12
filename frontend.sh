@@ -107,7 +107,7 @@ read slack
 
 case "$slack" in
     s|S|Sim|"")
-        brew install slack
+        brew cask install slack
     ;;
 esac
 
@@ -117,7 +117,37 @@ read sourcetree
 
 case "$sourcetree" in
     s|S|Sim|"")
-        brew install sourcetree
+        brew cask install sourcetree
+    ;;
+esac
+
+## Spotify
+printf '\e[1;31mInstalar Spotify - (S)im/(N)ão\e[0m\n'
+read spotify
+
+case "$spotify" in
+    s|S|Sim|"")
+        brew cask install spotify
+    ;;
+esac
+
+## Postman
+printf '\e[1;31mInstalar Postman - (S)im/(N)ão\e[0m\n'
+read postman
+
+case "$postman" in
+    s|S|Sim|"")
+        brew cask install postman
+    ;;
+esac
+
+## Zeplin
+printf '\e[1;31mInstalar Zeplin - (S)im/(N)ão\e[0m\n'
+read zeplin
+
+case "$zeplin" in
+    s|S|Sim|"")
+        brew cask install zeplin
     ;;
 esac
 
@@ -148,5 +178,47 @@ read npmn
 case "$npmn" in
     s|S|Sim|"")
         npm i -g n
+    ;;
+esac
+
+## Vue
+printf '\e[1;31mInstalar VUE.js - (S)im/(N)ão\e[0m\n'
+read vue
+
+case "$vue" in
+    s|S|Sim|"")
+        npm i -g vue
+    ;;
+esac
+
+## Gulp
+printf '\e[1;31mInstalar gulp - (S)im/(N)ão\e[0m\n'
+read gulp
+
+case "$gulp" in
+    s|S|Sim|"")
+        npm i -g gulp
+    ;;
+esac
+
+## NPX
+printf '\e[1;31mInstalar NPX - (S)im/(N)ão\e[0m\n'
+read npx
+
+case "$npx" in
+    s|S|Sim|"")
+        npm i -g npx
+    ;;
+esac
+
+## Redis
+printf '\e[1;31mInstalar Redis - (S)im/(N)ão\e[0m\n'
+read redis
+
+case "$redis" in
+    s|S|Sim|"")
+        brew install redis
+        ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+        redis-cli ping
     ;;
 esac
