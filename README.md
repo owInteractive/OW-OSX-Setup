@@ -53,11 +53,14 @@ Programs, Languagues and other things covered on script
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [Iterm2](https://www.iterm2.com/)
 * [Slack](https://slack.com/intl/pt-br/)
+* [Postman](https://www.postman.com/downloads/)
 * [Sourcetree](https://www.sourcetreeapp.com/)
 * [Java](https://www.java.com/pt_BR/download/)
 * [Node](https://nodejs.org/en/)
 * [switch-php](https://www.npmjs.com/package/switch-php)
 * [n](https://www.npmjs.com/package/n)
+* [gulp](https://www.npmjs.com/package/gulp)
+* [redis](https://redis.io/topics/rediscli)
 
 ## Are you a frontend?
 
@@ -85,10 +88,16 @@ Programs, Languagues and other things covered on script
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [Iterm2](https://www.iterm2.com/)
 * [Slack](https://slack.com/intl/pt-br/)
+* [Postman](https://www.postman.com/downloads/)
+* [Zeplin](https://zeplin.io/)
 * [Sourcetree](https://www.sourcetreeapp.com/)
 * [Java](https://www.java.com/pt_BR/download/)
 * [Node](https://nodejs.org/en/)
 * [n](https://www.npmjs.com/package/n)
+* [vue](https://www.npmjs.com/package/vue)
+* [NPX](https://www.npmjs.com/package/npx)
+* [Gulp](https://www.npmjs.com/package/gulp)
+* [Redis](https://redis.io/topics/rediscli)
 
 I want to contribute
 
