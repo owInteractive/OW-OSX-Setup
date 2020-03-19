@@ -21,16 +21,6 @@ case "$homebrew" in
     ;;
 esac
 
-## Framework do terminal
-printf '\e[1;31mInstalar ZSH - (S)im/(N)ão\e[0m\n'
-read zsh
-
-case "$zsh" in
-    s|S|Sim|"")
-        sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    ;;
-esac
-
 ## Framework do GIT
 printf '\e[1;31mInstalar GIT Flow - (S)im/(N)ão\e[0m\n'
 read gitflow
@@ -200,5 +190,15 @@ case "$redis" in
         brew install redis
         ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
         redis-cli ping
+    ;;
+esac
+
+## Framework do terminal
+printf '\e[1;31mInstalar ZSH - (S)im/(N)ão\e[0m\n'
+read zsh
+
+case "$zsh" in
+    s|S|Sim|"")
+        sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ;;
 esac
