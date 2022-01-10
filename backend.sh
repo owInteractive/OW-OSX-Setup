@@ -53,16 +53,6 @@ case "$npmn" in
     ;;
 esac
 
-## Facilita na Troca de PHP na máquina
-printf '\e[1;31mInstalar SwitchPHP - Gerenciamento de versões do PHP - (S)im/(N)ão\e[0m\n'
-read npmswitchphp
-
-case "$npmswitchphp" in
-    s|S|Sim|"")
-        npm i -g switch-php
-    ;;
-esac
-
 ## Framework do terminal
 printf '\e[1;31mInstalar Oh my ZSH - Gerenciamento das configurações do interpretador de comandos Zsh - (S)im/(N)ão\e[0m\n'
 read zsh
@@ -134,12 +124,12 @@ case "$sourcetree" in
 esac
 
 ## SGBDI utilizado junto com o MySQL/MariaDB
-printf '\e[1;31mInstalar Sequel Pro - Sistema de gerenciamento de banco de dados - (S)im/(N)ão\e[0m\n'
-read sequelpro
+printf '\e[1;31mInstalar Sequel Ace - Sistema de gerenciamento de banco de dados - (S)im/(N)ão\e[0m\n'
+read sequelace
 
-case "$sequelpro" in
+case "$sequelace" in
     s|S|Sim|"")
-        brew cask install sequel-pro
+        brew install --cask sequel-ace
     ;;
 esac
 
@@ -163,26 +153,6 @@ case "$docker" in
     ;;
 esac
 
-## Visualizador de máquinas do docker
-printf '\e[1;31mInstalar Captain - Visualizador de máquinas do docker - (S)im/(N)ão\e[0m\n'
-read captain
-
-case "$captain" in
-    s|S|Sim|"")
-        brew cask install captain
-    ;;
-esac
-
-## Linguaguem de programação
-printf '\e[1;31mInstalar Java - Linguagem de programação - (S)im/(N)ão\e[0m\n'
-read java
-
-case "$java" in
-    s|S|Sim|"")
-        brew cask install java
-    ;;
-esac
-
 ## Forticlient VPN
 printf '\e[1;31mInstalar Forticlient - Serviço de VPN - (S)im/(N)ão\e[0m\n'
 read forticlient
@@ -190,15 +160,5 @@ read forticlient
 case "$forticlient" in
     s|S|Sim|"")
         brew install --cask forticlient
-    ;;
-esac
-
-## Redis
-printf '\e[1;31mInstalar Redis - Banco de dados chave e valor - (S)im/(N)ão\e[0m\n'
-read redis
-
-case "$redis" in
-    s|S|Sim|"")
-        brew install redis
     ;;
 esac

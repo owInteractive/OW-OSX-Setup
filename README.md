@@ -47,7 +47,6 @@ Programs, Languagues and other things covered on script
 * [Rosetta](https://macmagazine.com.br/post/2021/03/07/como-instalar-o-rosetta-2-em-macs-com-apple-silicon/)
 * [Node](https://nodejs.org/en/)
 * [n](https://www.npmjs.com/package/n)
-* [switch-php](https://www.npmjs.com/package/switch-php)
 * [ZSH](https://ohmyz.sh/)
 * [Google Chrome](https://www.google.com/intl/pt-BR/chrome/)
 * [VSCode](https://code.visualstudio.com/)
@@ -55,13 +54,10 @@ Programs, Languagues and other things covered on script
 * [Spotify](https://www.spotify.com/br/)
 * [GIT Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 * [Sourcetree](https://www.sourcetreeapp.com/)
-* [Sequel Pro](https://www.sequelpro.com/)
+* [Sequel Ace](https://sequel-ace.com/)
 * [Postman](https://www.postman.com/downloads/)
 * [Docker](https://www.docker.com/products/docker-desktop)
-* [Captain](https://getcaptain.co/)
-* [Java](https://www.java.com/pt-BR/)
 * [Forticlient](https://www.fortinet.com/br/support/product-downloads)
-* [Redis](https://redis.io/topics/rediscli)
 
 ## Are you a frontend?
 
@@ -90,7 +86,6 @@ Programs, Languagues and other things covered on script
 * [Spotify](https://www.spotify.com/br/)
 * [GIT Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 * [Sourcetree](https://www.sourcetreeapp.com/)
-* [Sequel Pro](https://www.sequelpro.com/)
 * [Postman](https://www.postman.com/downloads/)
 * [Docker](https://www.docker.com/products/docker-desktop)
 * [Forticlient](https://www.fortinet.com/br/support/product-downloads)
