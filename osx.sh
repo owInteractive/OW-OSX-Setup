@@ -10,7 +10,7 @@
 #
 #    Works in 10.15, 10.14, 10.13, 10.12, 10.11
 
-printf '\e[1;31mSenha do OS X (Privilégios de Admistrador)\e[0m\n'
+printf '\e[1;31mSenha do OS X (Privilégios de Administrador)\e[0m\n'
 sudo -v
 
 printf '\e[1;31mDesativar os efeitos sonoros na inicialização\e[0m\n'

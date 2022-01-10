@@ -6,7 +6,7 @@
 #
 
 ## Dar permissão para instalar os programas
-printf '\e[1;31mSenha do OS X (Privilégios de Admistrador)\e[0m\n'
+printf '\e[1;31mSenha do OS X (Privilégios de Administrador)\e[0m\n'
 sudo -v
 
 ## Gerenciar de pacotes do OSX
@@ -19,6 +19,7 @@ case "$homebrew" in
     ;;
     n|N|Não|"")
         printf '\e[1;31mVocê não instalou o Homebrew, ele é obrigatório para dar continuidade na instalação de outros programas.\e[0m\n'
+        exit 1
     ;;
 esac
 
@@ -159,7 +160,5 @@ read redis
 case "$redis" in
     s|S|Sim|"")
         brew install redis
-        ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
-        redis-cli ping
     ;;
 esac
